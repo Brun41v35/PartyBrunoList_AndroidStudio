@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/add"
+        android:onClick="cadastrar"
+        android:title="Cadastrar"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/lupa"
+        android:title="Consultar"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>
